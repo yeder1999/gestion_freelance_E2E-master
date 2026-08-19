@@ -1,0 +1,21 @@
+pipeline {
+    agent{
+        docker{
+             image 'mcr.microsoft.com/playwright:latest'
+            args '-u root --entrypoint='
+        }
+    }
+
+    stages {
+        stage('installation dependences ') {
+            steps {
+                sh 'npm install'
+            }
+        }
+        stage('lancement des tets ') {
+            steps {
+                sh 'npx playwright test'
+            }
+        }
+    }
+}
