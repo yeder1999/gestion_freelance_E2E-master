@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","28492","Parcours complet de création d’un compte jusqu’à l’enregistrement d’un devis","webkit","2026-08-20","passed","2026-08-20","","TC-E2E-001.spec.ts","",""
+"","30255","Parcours complet de création d’un compte jusqu’à l’enregistrement d’un devis","firefox","2026-08-20","broken","2026-08-20","","TC-E2E-001.spec.ts","",""
+"","6998","Parcours complet de création d’un compte jusqu’à l’enregistrement d’un devis","chromium","2026-08-20","passed","2026-08-20","","TC-E2E-001.spec.ts","",""

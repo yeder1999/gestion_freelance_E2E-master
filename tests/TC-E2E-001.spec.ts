@@ -71,7 +71,7 @@ test("Parcours complet de création d’un compte jusqu’à l’enregistrement 
     await devis.ClickAjouter_Devis()
     //choisir le client
     await expect(page).toHaveURL("https://thrundrz.fr/gestion/EspaceClient/devis/ajouter")
-    //await 
+
     
     //statu (envoyé)
     //designation , prix, qte random
